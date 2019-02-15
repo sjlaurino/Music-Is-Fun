@@ -1,0 +1,12 @@
+.title{
+  font-family: 'Indie Flower', cursive;
+  color: whitesmoke;
+}
+
+.back{
+  background-image: url("macbook.jpg");
+  background-size: 75vw;
+  background-size: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

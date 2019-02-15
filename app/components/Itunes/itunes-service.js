@@ -1,6 +1,7 @@
 import Song from "../../models/Song.js";
 
 
+
 let _state = {
   songs: []
 }
@@ -14,11 +15,18 @@ function setState(prop, data) {
   _subscribers[prop].forEach(fn => fn())
 }
 
+
 //DO NOT MODIFY
-class ItunesService {
+export default class ItunesService {
+  constructor() {
+  }
   get Songs() {
     return _state.songs
   }
+
+
+
+
 
   getMusicByArtist(artist) {
     var url = 'https://itunes.apple.com/search?callback=?&term=' + artist;
@@ -37,5 +45,3 @@ class ItunesService {
 }
 
 
-
-export default ItunesService
