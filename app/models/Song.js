@@ -12,7 +12,7 @@ export default class Song {
     getTemplate(i) {
         return `
     <div class="carousel-item ${!i ? 'active' : ''}">
-        <div class=" card d-flex flex-column align-items-center justify-content-center w-100">        
+        <div class=" card d-flex flex-column align-items-center justify-content-center w-100 wrap-text">        
             <img class="card-img-top" src="${this.albumArt}" alt="First slide">
             <h5 class="card-title">${this.title}</h5>
             <p class="card-text">${this.artist}</p>

@@ -9,7 +9,7 @@ function drawSongs() {
   //step 2 finish this function
   let songs = itunesService.Songs
   let template = `
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+  <div id="carouselExampleIndicators" class="carousel-fade carousel" data-ride="carousel" data-interval="false">
     <div class="carousel-inner">
   `
   for (let i = 0; i < songs.length; i++) {
