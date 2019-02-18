@@ -1,6 +1,7 @@
 .title{
   font-family: 'Indie Flower', cursive;
   color: whitesmoke;
+  text-shadow: 2px 4px 2px black;
 }
 
 .back{
@@ -37,4 +38,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: center;
+}
+.audio{
+  width: 210px;
+  height: 30px;
 }

@@ -16,7 +16,7 @@ export default class Song {
             <img class="card-img-top" src="${this.albumArt}" alt="First slide">
            <div class="wrap-text"> <h5 class="card-title">${this.title}</h5></div>
             <div class="wrap-text"> <p class="card-text">${this.artist}</p></div>
-            <audio controls src="${this.preview}">
+            <audio controls src="${this.preview}" class="audio">
                     <p>Your browser does not support the
                     <code>audio</code> element.</p>
             </audio>
