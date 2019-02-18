@@ -32,5 +32,9 @@
   color:grey;
 }
 .wrap-text{
-  word-wrap: break-word;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
 }
